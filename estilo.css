@@ -33,6 +33,7 @@ div#interface {
 header#cabecalho {
 	border-bottom: 2.2px #b09469 solid;
 	height: 130px;
+	
 }
 header#cabecalho h1 {
 	font-family: 'FonteLogo', serif;
