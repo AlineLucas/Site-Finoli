@@ -1,91 +1,195 @@
-<!DOCTYPE html>
+@charset "UTF-8";
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("hello-honey.otf");
+}
 
-<html lang="pt-br">
-
-	<head>
-		<meta charset="UTF-8"/>
-		<title>Finoli Ateliê</title>
-		<link rel="stylesheet" type="text/css" href="capa/estilo.css"/>
-	</head>
+@font-face {
+	font-family: 'HelloAnnie';
+	src: url("hello-annie.otf");
 	
+}
+
+body {
+	background-color: #ebd3bd;
+	color: #3a2a15;
+	font-family: 'HelloAnnie',sans-serif;
+	font-size: 20pt;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
 	
+}
 
-<figure class="foto-logo">
-	<img src="capa/logo-site.png"/>
-</figure>
+a {
+	text-decoration: none;
+	color: #593f19;
+}
 
+a:hover {
+	text-decoration: underline;
+	text-align: center;
+}
 
+div#interface {
+	width: 1100px;
+	background-color: #c7d7db;
+	margin: -30px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(89,63,25,.6);
+	padding: 15px;
+}
 
-<body>
-<div id="interface">	
+header#cabecalho {
+	border-bottom: 2.2px #b09469 solid;
+	height: 320px;
+	margin-top: 88px;
+}
+header#cabecalho h1 {
+	font-family: 'FonteLogo', serif;
+	font-size: 50pt;
+	color: rgba(89,63,25,1);
+	padding: 0px;
+	margin: 10px 5px 0px 0px; 
+	text-shadow: 1px 1px 15px rgba(235,211,189,1);
+}
+
+header#cabecalho h2 {
+	font-family: 'HelloAnnie', sans-serif;
+	font-size: 18pt;
+	font-weight: bolder;
+	color: #593f19;
+	padding: 0px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 15px rgba(235,211,189,1);
 	
+}
 
-
-	<header id="cabecalho">
-	<hgroup>
-	
-		<h1>Finoli ateliê</h1>
-		<h2>&nbsp;Peças personalizadas</h2>
-		
-	</hgroup>
-	
-	<nav id="menu">	
-		<h1>Menu principal</h1>
-		<ul type="square">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="catalogo.html">Catálogo</a></li>
-		<li><a href="sobre.html">Sobre o Finoli ateliê</a></li>
-		<li><a href="contato.html">Contato</a></li>
-		<li><a href="poli.html">Políticas do ateliê</a></li>
-		</ul>
-	</nav>
-	</header>
-	
-<section id="corpo">
-	 
-	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed feugiat leo, quis imperdiet tortor. Aliquam odio lectus, malesuada iaculis ante quis, commodo faucibus nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam elit dui, pulvinar ac iaculis ac, mattis eu elit. Donec venenatis luctus dapibus. Etiam tempus dignissim quam, tempor commodo leo convallis at. Aliquam vitae faucibus diam. Nam ullamcorper orci in lectus viverra, sed sagittis sem aliquet. Nullam pharetra, quam sed molestie vehicula, felis turpis iaculis eros, et ornare urna dolor ut mauris. Vivamus molestie ligula sit amet sem fermentum, iaculis fermentum purus vestibulum. Suspendisse ornare, sapien et volutpat varius, lacus ante aliquet quam, sed fermentum diam mauris elementum odio. Duis et neque condimentum, accumsan nibh vitae, ullamcorper nisl. Vestibulum tempus mollis odio, vitae bibendum lacus blandit volutpat. Vestibulum nisi quam, eleifend sit amet sem et, molestie finibus quam.</p>
-
-
-	<p>Donec elementum, neque at vestibulum dictum, ipsum orci tincidunt lacus, quis molestie velit elit at massa. Donec urna libero, ultrices malesuada iaculis a, vehicula non lacus. Donec fringilla, dolor ullamcorper aliquet rutrum, libero tortor viverra quam, condimentum consectetur lectus risus et nisl. In ullamcorper sem urna, quis convallis erat blandit id. Sed tincidunt lacus velit, efficitur eleifend dui venenatis ut. Morbi cursus libero nisi. Maecenas et diam leo.</p>
-
-	<p>Vestibulum tincidunt justo venenatis, ullamcorper turpis at, pharetra mauris. Sed quis nisi dignissim, faucibus sem vel, posuere ligula. Cras sed dapibus massa. Duis ultricies quis mauris quis imperdiet. Nunc efficitur dignissim tincidunt. Ut euismod odio sit amet nunc vestibulum, ut iaculis ipsum luctus. Donec posuere vitae ante et gravida. Sed non ex faucibus, maximus urna non, egestas ipsum. Praesent sit amet arcu ac ante dignissim mollis. Suspendisse sollicitudin nisi id iaculis mattis. Nullam luctus mauris nisi, non aliquet orci suscipit sodales. Sed sit amet finibus magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce nec sapien faucibus, fringilla erat vel, dapibus metus. Vivamus auctor consectetur arcu vel ullamcorper.</p>
-
-	<p>Donec dapibus hendrerit arcu, vitae vulputate nulla bibendum nec. Integer eget eros in lectus tempus ornare. Vivamus consequat tincidunt lorem sit amet consequat. Morbi finibus tortor erat, aliquet pharetra nisi venenatis sed. Morbi rhoncus id est eu euismod. Aliquam mi dolor, pretium in neque sit amet, elementum facilisis nisl. Suspendisse eget nunc sagittis, fermentum sem in, ullamcorper sapien.</p>
-	 
-</section>
-<aside id="lado">
-	
-<table id="tabela">
-<caption>Tabela <span>2021</span></caption>
-<tr><td class="ce">linha1</td><td class="cd">resultado1</td></tr>
-<tr><td rowspan="2" class="ce">linha2</td><td class="cd">resultado2</td></tr>
-<tr><td class="cd">resultado2.1</td class=cd"><tr>
-<tr><td class="ce">linha3</td><td class="cd">resultado3</td></tr>
-<tr><td colspan="2" style="text-align: center" class="cu">linha4</td></tr>
-</table>
-</aside>
-	  	 
-	 
-	  
-	 
-	 
-	
-	
+figure.foto-logo img {
+	width: 25%;
+	height: 300%;
+	float: right;
+	margin: 10px 80px 5px 260px;
+}
 
 
-<footer id="rodape">
-	<p><b>Finoli ateliê</b></br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://Facebook.com/finoliatelie" target="blank">Facebook</a> | <a href="https://instagram.com/finoliatelie" target="blank">Instagram</a></p>
+
+
+/* Formatação do menu */
+
+nav#menu {
+	display: block;
+	position: absolute;
+	top: -20px;
+	left: 100px;
+	font-size: 18px;
+	font-family: 'FonteSegunda';
+}
+
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #ebd3bd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #b09469;
 	
-</footer>
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #593f19;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+
+}
+
+section#corpo {
+	display: block;
+	width: 750px;
+	float: left;
+	border-right: 1px solid #b09469;
+	padding-right: 15px;
+	padding-left: 5px;
+	padding-top: 0px;
+}
+
+aside#lado {
+	display: block;
+	width: 300px;
+	float: right;
+	padding: 10px;
+}
+
+table#tabela {
+	border: 1px solid #b09469;
+	border-spacing: 0px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+table#tabela td {
+	border: 1px solid #b09469;
+	padding: 15px;
+}
+
+table#tabela td.ce {
+	color:#3a2a15;
+	background-color: #ebd3bd;
 	
 	
+}
+
+table#tabela td.cd {
+	color: #3a2a15;
+	background-color: #f1e8df;
 	
+}
+
+table#tabela td.cu {
+	color: #3a2a15;
+	background-color: #c7d7db;
 	
+}
+
+table#tabela caption span {
+	float: right;
+	font-size: 14pt;
+	margin-top: 17px;
+	font-family: 'HelloAnnie', sans-serif;
+	font-weight: bolder;
+}
+
+table#tabela caption {
+	color: #593f19;
+	font-size: 30pt;
+	font-family: 'FonteLogo', serif;
+}
+
+
+footer#rodape {
+	clear: both;
 	
-	
-	
-	
-</div>
-</body>
-</html>
+}
+
+footer#rodape p {
+	border-top: 1px solid #b09469;
+	padding: 18px;
+	text-align: center;
+}
